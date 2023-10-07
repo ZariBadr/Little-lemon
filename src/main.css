@@ -1,0 +1,13 @@
+.hero {
+    background-color: #495E57;
+    justify-content: space-between;
+    height: 720px;
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    color: #EDEFEE;
+}
+
+.TableDetails {
+    background-color: #F4CE14;
+    height: 700px;
+}
