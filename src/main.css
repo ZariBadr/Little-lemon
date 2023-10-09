@@ -1,13 +1,52 @@
 .hero {
     background-color: #495E57;
-    justify-content: space-between;
-    height: 720px;
+    height: auto;
     font-family: 'Karla', sans-serif;
     font-size: 32px;
     color: #EDEFEE;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.TableDetails {
+.hero p {
+    flex: 1;
+    padding: 2rem;
+    hyphens:inherit;
+    font-size: 2vw;
+    text-align: justify;
+}
+
+.heroImg {
+    height: auto;
+    max-width: 100%;
+    flex: 1;
+}
+
+.TableInfo {
     background-color: #F4CE14;
+    text-align: center;
+    display: flex;
     height: 700px;
+}
+
+.rightDetails {
+    flex: 1; /* This makes sure each div takes up equal space */
+    padding: 10px; /* Optional padding for inner spacing */
+}
+
+.leftDetails {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex: 1; /* This makes sure each div takes up equal space */
+    padding: 1rem 8rem 15rem 4rem; }
+
+.leftDetails img {
+    width: calc(50% - 10px);
+
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+ /* This ensures images don't overflow their parent div */ /* Makes sure each image is on its own line */
 }
