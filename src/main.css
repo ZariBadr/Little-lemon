@@ -23,6 +23,19 @@
     flex: 1;
 }
 
+.button-go {
+    width: 320px;
+    height: 80px;
+    text-align: center;
+    background-color: #495E57;
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    color: #F4CE14;
+    border-radius: 12px;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
 .TableInfo {
     background-color: #F4CE14;
     text-align: center;
@@ -31,16 +44,17 @@
 }
 
 .rightDetails {
-    flex: 1; /* This makes sure each div takes up equal space */
-    padding: 10px; /* Optional padding for inner spacing */
+    flex: 1;
+    padding: 10px;
 }
 
 .leftDetails {
     justify-content: flex-end;
     align-items: center;
     display: flex;
-    flex: 1; /* This makes sure each div takes up equal space */
-    padding: 1rem 8rem 15rem 4rem; }
+    flex: 1;
+    padding: 1rem 8rem 15rem 4rem;
+}
 
 .leftDetails img {
     width: calc(50% - 10px);
@@ -48,5 +62,38 @@
     max-width: 100%;
     height: auto;
     padding: 1rem;
- /* This ensures images don't overflow their parent div */ /* Makes sure each image is on its own line */
 }
+
+.rightDetails {
+    padding: 3rem;
+}
+
+#dropdown {
+    text-align: center;
+    background-color: #495E57;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    color: #EDEFEE;
+    border-radius: 12px;
+}
+
+.TimeDate {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 250px;
+    height: 60px;
+}
+
+.occasion {
+    margin-top: 2rem;
+    width: 500px;
+    height: 60px;
+}
+
+.Date-Time {
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+}
+

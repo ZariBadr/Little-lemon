@@ -15,15 +15,32 @@ function Main() {
             <h1>Find a table for any occasion</h1>
                     <div className="leftDetails" >
                         <img src={OutsideImage}/>
+                        <label name="oustside">Outside</label>
+                        <input type="radio" />
                         <img src={InsideImage}/>
+                        <label name="oustside">Inside</label>
+                        <input type="radio"/>
                     </div>
                     <div className="rightDetails">
-                        <select name="Date" id="date">
-                            <option value="01-01-2024">01-01-2024</option>
-                            <option value="01-02-2024">01-02-2024</option>
-                            <option value="01-03-2024">01-03-2024</option>
-                            <option value="01-04-2024">01-04-2024</option>
+                        <select name="Date" className="TimeDate" id="dropdown">
+                            <option className="dropdown" value="date1">Date</option >
+                            <option className="dropdown" value="date2">01-02-2024</option >
+                            <option className="dropdown" value="date3">01-03-2024</option >
+                            <option className="dropdown" value="date4">01-04-2024</option >
                         </select>
+                        <select name="Time" className="TimeDate" id="dropdown">
+                            <option className="dropdown" value="Time1">Time</option>
+                            <option className="dropdown" value="Time2">2h</option>
+                            <option className="dropdown" value="Time3">3h</option>
+                            <option className="dropdown" value="Time4">4h</option>
+                        </select>
+                        <select name="occasion" className="occasion" id="dropdown">
+                            <option className="dropdown" value="occasion1">Occasion</option>
+                            <option className="dropdown" value="occasion2">Birthday</option>
+                            <option className="dropdown" value="occasion3">Anniversary</option>
+                            <option className="dropdown" value="occasion4">Engagemant</option>
+                        </select>
+                        <button className="button-go">Let's go</button>
                     </div>
             </div>
             <div className="SignAndCreditcard">
