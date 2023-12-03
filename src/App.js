@@ -8,7 +8,8 @@ import React from 'react';
 function App() {
   return (
     <>
-      <Header/>
+      {/* <Header/> */}
+      <Nav/>
       <Main/>
       <Footer/>
     </>

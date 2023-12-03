@@ -1,4 +1,28 @@
 .navbar {
+    margin: 10px;
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 5px;
+}
+
+img {
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+.navbar ul {
+    list-style-type: none;
+    color: #495E57;
+}
+
+Nav {
+    grid-column: 2 / 4;
+}

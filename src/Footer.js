@@ -6,9 +6,11 @@ import "../src/footer.css";
 function Footer() {
     return (
         <footer>
-            <img src={logo}/>
-            <p>Doormat Navigation</p>
+            <img className="footer-logo" src={logo}/>
             <li>
+                    <ul>
+                        Doormat Navigation
+                    </ul>
                     <ul>
                         <a href="#">HOME</a>
                     </ul>
@@ -28,8 +30,10 @@ function Footer() {
                         <a href="#">LOGIN</a>
                     </ul>
             </li>
-            <p>Contact</p>
             <li>
+                    <ul>
+                    Contact
+                    </ul>
                     <ul>
                         <a href="#">Address</a>
                     </ul>
@@ -40,8 +44,10 @@ function Footer() {
                         <a href="#">Email</a>
                     </ul>
             </li>
-            <p>Social media contact</p>
             <li>
+                    <ul>
+                        Social media contact
+                    </ul>
                     <ul>
                         <a href="#">Instagram</a>
                     </ul>

@@ -1,37 +1,6 @@
-
 .app {
     font-family: 'Arial', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(40, 2.5%);
 }
-
-.Header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 8rem;
-}
-
-.logo {
-    height: 70px;
-    width: 270px;
-}
-
-.navbar {
-    display: flex;
-    gap: 20px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: inherit;
-    padding: 0.5rem;
-    font-size: large;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-
-}
-
-.navbar ul {
-    list-style-type: none;
-    color: #495E57;
-}
-

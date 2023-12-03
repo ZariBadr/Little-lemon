@@ -7,3 +7,9 @@ ul {
     display: flex;
     justify-content:space-between;
 }
+
+.footer-logo {
+    margin: 40px;
+    width: 280px;
+    height: 130px;
+}

@@ -1,9 +1,11 @@
 import * as React from "react";
-import "./App.css"
+import "./nav.css";
+import logo from './images/logo.png';
 
 function Nav() {
     return (
       <div className="navbar">
+        <img src={logo}/>
         <ul>
           <li>
               <a href="#">HOME</a>
