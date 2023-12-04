@@ -12,14 +12,11 @@ function Main() {
                 <img className="heroImg" src={HeroImage}/>
             </div>
             <div className="TableInfo">
-                    <h1>Find a table for any occasion</h1>
+                    <h1 className="find-table">Find a table for any occasion</h1>
                     <div className="leftDetails" >
                         <img id="outside" src={OutsideImage}/>
                         <img id="inside" src={InsideImage}/>
                     </div>
-
-
-
                     <div className="rightDetails">
                         {/* <select className="TimeDate">
                             <option className="dropdown" value="date1">Date</option >
@@ -72,15 +69,15 @@ function Main() {
 
                     </div>
                     <div class="seating-options">
-                        <label>Seating options:</label>
+                        <label className="radio-button">Seating options:</label>
                         <div class="options">
                             <div class="option">
-                                <input type="radio" id="standard" name="seating" value="standard"/>
-                                <label for="standard">Standard</label>
+                                <label className="radio-button" for="standard">Standard</label>
+                                <input className="radio" type="radio" id="standard" name="seating" value="standard"/>
                             </div>
                             <div class="option">
-                                <input type="radio" id="outside" name="seating" value="outside"/>
-                                <label for="outside">Outside</label>
+                                <label  className="radio-button" for="outside">Outside</label>
+                                <input className="radio" type="radio" id="outside" name="seating" value="outside"/>
                             </div>
                         </div>
                     </div>
@@ -110,7 +107,18 @@ function Main() {
                     <div className="CreditCard">
                     <input className="Input-info-year" placeholder="MM/YYYY" type="search"></input>
                     <input className="Input-info-cvv" placeholder="CVV" type="search"></input>
-                    <p>Full name is required</p>
+                    <p>Expiration date and CVV required</p>
+                    <div className="booking-text">
+                        <lebel className="radio-buttons" for="text">Send me booking confirmation via text</lebel>
+                        <input className="radio" type="radio" id="outside" name="text" value="text"></input>
+                    </div>
+                    <div className="booking-email">
+                        <lebel className="radio-buttons" for="text">Send me booking confirmation via mail</lebel>
+                        <input className="radio" type="radio" id="outside" name="text" value="text"></input>
+                    </div>
+                    <button className="Booking">
+                        Book
+                    </button>
                     </div>
                 </div>
             </div>

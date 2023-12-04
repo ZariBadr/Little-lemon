@@ -1,6 +1,7 @@
 footer {
     display: flex;
     justify-content: center;
+    background-color: #EDEFEE;
 }
 
 ul {
@@ -8,8 +9,13 @@ ul {
     justify-content:space-between;
 }
 
+a {
+    text-decoration: none;
+    color: #495E57;
+}
+
 .footer-logo {
     margin: 40px;
-    width: 280px;
-    height: 130px;
+    width: 260px;
+    height: 100px;
 }

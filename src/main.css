@@ -22,6 +22,19 @@
     max-width: 100%;
     flex: 1;
 }
+input[type='radio'] {
+    width: 30px;
+    height: 30px;
+    accent-color: #495E57;
+    margin-left: 50px;
+  }
+
+
+.radio-button {
+    font-weight: 600;
+    font-size: larger;
+    color: #495E57;
+}
 
 .button-go {
     grid-column: 2/4;
@@ -35,8 +48,11 @@
     color: #F4CE14;
     border-radius: 12px;
     justify-self: center;
-    padding: 20px;
 
+}
+
+.find-table {
+    color: #495E57;
 }
 
 .TableInfo {
@@ -47,7 +63,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 15% 40% 15%;
     row-gap: 10px;
-    
 }
 
 .TableInfo h1 {
@@ -62,11 +77,36 @@
     justify-content: space-between;
     grid-column: span 2;
     grid-row: span 1;
-    flex-direction: row; 
+    flex-direction: row;
+}
+
+#time {
+    background-color: #EDEFEE;
+    color: #495E57;
+    border-radius: 10px;
+    border-color: #EDEFEE;
+}
+
+#date {
+    background-color: #EDEFEE;
+    color: #495E57;
+    border-radius: 10px;
+}
+
+#diners {
+    background-color: #EDEFEE;
+    color: #495E57;
+    border-radius: 10px;
+}
+
+#occasion {
+    background-color: #EDEFEE;
+    color: #495E57;
+    border-radius: 10px;
 }
 
 .seating_options {
-    grid-column: span 2; 
+    grid-column: span 2;
     grid-row: 3/4;
     text-align: center;
     align-self: center;
@@ -99,7 +139,7 @@
 /* #dropdown {
     text-align: center;
     background-color: #495E57;
-    color: white;
+    color: #EDEFEE;
     font-family: 'Karla', sans-serif;
     font-size: 32px;
     color: #EDEFEE;
@@ -131,7 +171,7 @@
     gap: 30px;
     text-align: center;
     /* background-color: #495E57;
-    color: white;
+    color: #EDEFEE;
     font-family: 'Karla', sans-serif;
     font-size: 32px;
     color: #EDEFEE;
@@ -147,12 +187,12 @@
 .input-group select {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #EDEFEE;
     border-radius: 5px; /* optional */
     background-color: #f4f4f4; /* optional */
     /* appearance: none; */
     background-color: #495E57;
-    color: #ccc;
+    color: #EDEFEE;
     background-position: right 10px center;
     background-repeat: no-repeat;
     font-size: 32px;
@@ -193,42 +233,74 @@
 
 .SignAndCreditcard {
     font-size: large;
-    color: #ccc;
+    color: #EDEFEE;
     display: flex;
     background-color: #495E57;
     justify-content: space-between;
     padding: 20px;
 }
 
+.booking-email {
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+.booking-text {
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .Input-info {
-    background-color: white;
+    background-color: #EDEFEE;
+    font-size: 30px;
     border-radius: 13px;
     width: 650px;
     height: 70px;
 }
 
 .Input-info-year {
-    background-color: white;
+    background-color: #EDEFEE;
+    font-size: 30px;
     border-radius: 13px;
     width: 320px;
     height: 70px;
 }
 
 .Input-info-cvv {
-    background-color: white;
+    background-color: #EDEFEE;
+    font-size: 30px;
     border-radius: 13px;
     width: 190px;
     height: 70px;
 }
 .Input-info-text {
-    background-color: white;
+    background-color: #EDEFEE;
+    font-size: 30px;
     border-radius: 13px;
     width: 650px;
     height: 140px;
+
 }
 
 
 ::placeholder {
-    font-size: large;
+    font-size: 30px;
     color:#495E57;
+    font-size: 30px;
   }
+
+input:focus {
+    outline: none;
+}
+
+.Booking {
+    margin: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 13px;
+    color: #495E57;
+    background-color: #F4CE14;
+    height: 80px;
+    width: 320px;
+}
